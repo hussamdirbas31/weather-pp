@@ -31,8 +31,8 @@ const WeatherCard: React.FC<WeatherCardProps> = ({
           width={150}
           height={150}
           className="rounded-md object-cover"
-          quality={50} // Lower quality for faster load
-          loading="lazy" // Lazy load for non-critical images
+          quality={50} 
+          loading="lazy" 
         />
       );
     } else if (lowestTemp !== null && lowestTemp < 15) {
