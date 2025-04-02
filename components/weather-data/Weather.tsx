@@ -56,7 +56,7 @@ const Weather = () => {
 
       <div className="relative z-10  bg-black bg-opacity-60 min-h-screen p-4 grid place-items-center sm:p-12">
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3">Weather Forecast</h1>
-        <div className="  flex justify-center relative right-3 ">
+        <div className="  flex justify-center relative left-3 ">
         <SearchInput value={searchLocation} onChange={handleChange} onSubmit={handleSearch} />
         </div>
         {loading && <LoadingSpinner />}
